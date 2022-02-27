@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048933F327C5555200D2AFD6 /* Pamper_Wipes_ScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048933F227C5555200D2AFD6 /* Pamper_Wipes_ScannerApp.swift */; };
+		048933F727C5555300D2AFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048933F627C5555300D2AFD6 /* Assets.xcassets */; };
+		048933FA27C5555300D2AFD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048933F927C5555300D2AFD6 /* Preview Assets.xcassets */; };
+		0489340427C5555300D2AFD6 /* Pamper_Wipes_ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489340327C5555300D2AFD6 /* Pamper_Wipes_ScannerTests.swift */; };
+		0489340E27C5555400D2AFD6 /* Pamper_Wipes_ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489340D27C5555400D2AFD6 /* Pamper_Wipes_ScannerUITests.swift */; };
+		0489341027C5555400D2AFD6 /* Pamper_Wipes_ScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489340F27C5555400D2AFD6 /* Pamper_Wipes_ScannerUITestsLaunchTests.swift */; };
+		0489342427C55BE000D2AFD6 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489342127C55BE000D2AFD6 /* CameraError.swift */; };
+		0489342527C55BE000D2AFD6 /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489342227C55BE000D2AFD6 /* FrameManager.swift */; };
+		0489342627C55BE000D2AFD6 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489342327C55BE000D2AFD6 /* CameraManager.swift */; };
+		0489342927C55BF500D2AFD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489342827C55BF500D2AFD6 /* Preview Assets.xcassets */; };
+		0489342C27C55C0100D2AFD6 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489342B27C55C0100D2AFD6 /* ContentViewModel.swift */; };
+		0489343327C55C0900D2AFD6 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489342E27C55C0900D2AFD6 /* FrameView.swift */; };
+		0489343527C55C0900D2AFD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489343027C55C0900D2AFD6 /* ContentView.swift */; };
+		0489343727C55C0900D2AFD6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489343227C55C0900D2AFD6 /* ErrorView.swift */; };
+		0489343A27C55CC000D2AFD6 /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489343927C55CC000D2AFD6 /* CGImageExtension.swift */; };
+		0489343C27C5616900D2AFD6 /* CameraFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489343B27C5616900D2AFD6 /* CameraFinderView.swift */; };
+		0489343E27C5647200D2AFD6 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489343D27C5647200D2AFD6 /* CornerRadius.swift */; };
+		0489344427C582D300D2AFD6 /* ResultsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489344327C582D300D2AFD6 /* ResultsListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0489340027C5555300D2AFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048933E727C5555200D2AFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048933EE27C5555200D2AFD6;
+			remoteInfo = "Pamper Wipes Scanner";
+		};
+		0489340A27C5555400D2AFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048933E727C5555200D2AFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048933EE27C5555200D2AFD6;
+			remoteInfo = "Pamper Wipes Scanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048933EF27C5555200D2AFD6 /* Pamper Wipes Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pamper Wipes Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048933F227C5555200D2AFD6 /* Pamper_Wipes_ScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pamper_Wipes_ScannerApp.swift; sourceTree = "<group>"; };
+		048933F627C5555300D2AFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048933F927C5555300D2AFD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		048933FF27C5555300D2AFD6 /* Pamper Wipes ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pamper Wipes ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0489340327C5555300D2AFD6 /* Pamper_Wipes_ScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pamper_Wipes_ScannerTests.swift; sourceTree = "<group>"; };
+		0489340927C5555400D2AFD6 /* Pamper Wipes ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pamper Wipes ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0489340D27C5555400D2AFD6 /* Pamper_Wipes_ScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pamper_Wipes_ScannerUITests.swift; sourceTree = "<group>"; };
+		0489340F27C5555400D2AFD6 /* Pamper_Wipes_ScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pamper_Wipes_ScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0489342127C55BE000D2AFD6 /* CameraError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		0489342227C55BE000D2AFD6 /* FrameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		0489342327C55BE000D2AFD6 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		0489342827C55BF500D2AFD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0489342B27C55C0100D2AFD6 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		0489342E27C55C0900D2AFD6 /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		0489343027C55C0900D2AFD6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0489343227C55C0900D2AFD6 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		0489343927C55CC000D2AFD6 /* CGImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
+		0489343B27C5616900D2AFD6 /* CameraFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFinderView.swift; sourceTree = "<group>"; };
+		0489343D27C5647200D2AFD6 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		0489344327C582D300D2AFD6 /* ResultsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048933EC27C5555200D2AFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048933FC27C5555300D2AFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0489340627C5555400D2AFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048933E627C5555200D2AFD6 = {
+			isa = PBXGroup;
+			children = (
+				048933F127C5555200D2AFD6 /* Pamper Wipes Scanner */,
+				0489340227C5555300D2AFD6 /* Pamper Wipes ScannerTests */,
+				0489340C27C5555400D2AFD6 /* Pamper Wipes ScannerUITests */,
+				048933F027C5555200D2AFD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048933F027C5555200D2AFD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048933EF27C5555200D2AFD6 /* Pamper Wipes Scanner.app */,
+				048933FF27C5555300D2AFD6 /* Pamper Wipes ScannerTests.xctest */,
+				0489340927C5555400D2AFD6 /* Pamper Wipes ScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048933F127C5555200D2AFD6 /* Pamper Wipes Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				0489343827C55CC000D2AFD6 /* Extensions */,
+				0489342D27C55C0900D2AFD6 /* Views */,
+				0489342A27C55C0100D2AFD6 /* ViewModels */,
+				0489342727C55BF500D2AFD6 /* Preview Content */,
+				048933F227C5555200D2AFD6 /* Pamper_Wipes_ScannerApp.swift */,
+				0489342027C55BE000D2AFD6 /* Camera */,
+				048933F627C5555300D2AFD6 /* Assets.xcassets */,
+				048933F827C5555300D2AFD6 /* Preview Content */,
+			);
+			path = "Pamper Wipes Scanner";
+			sourceTree = "<group>";
+		};
+		048933F827C5555300D2AFD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				048933F927C5555300D2AFD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0489340227C5555300D2AFD6 /* Pamper Wipes ScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0489340327C5555300D2AFD6 /* Pamper_Wipes_ScannerTests.swift */,
+			);
+			path = "Pamper Wipes ScannerTests";
+			sourceTree = "<group>";
+		};
+		0489340C27C5555400D2AFD6 /* Pamper Wipes ScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0489340D27C5555400D2AFD6 /* Pamper_Wipes_ScannerUITests.swift */,
+				0489340F27C5555400D2AFD6 /* Pamper_Wipes_ScannerUITestsLaunchTests.swift */,
+			);
+			path = "Pamper Wipes ScannerUITests";
+			sourceTree = "<group>";
+		};
+		0489342027C55BE000D2AFD6 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				0489342127C55BE000D2AFD6 /* CameraError.swift */,
+				0489342227C55BE000D2AFD6 /* FrameManager.swift */,
+				0489342327C55BE000D2AFD6 /* CameraManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		0489342727C55BF500D2AFD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0489342827C55BF500D2AFD6 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../../../Downloads/FilterTheWorld/final/FilterTheWorld/Preview Content";
+			sourceTree = "<group>";
+		};
+		0489342A27C55C0100D2AFD6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0489342B27C55C0100D2AFD6 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0489342D27C55C0900D2AFD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0489342E27C55C0900D2AFD6 /* FrameView.swift */,
+				0489343027C55C0900D2AFD6 /* ContentView.swift */,
+				0489343227C55C0900D2AFD6 /* ErrorView.swift */,
+				0489343B27C5616900D2AFD6 /* CameraFinderView.swift */,
+				0489344327C582D300D2AFD6 /* ResultsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0489343827C55CC000D2AFD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0489343927C55CC000D2AFD6 /* CGImageExtension.swift */,
+				0489343D27C5647200D2AFD6 /* CornerRadius.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048933EE27C5555200D2AFD6 /* Pamper Wipes Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489341327C5555400D2AFD6 /* Build configuration list for PBXNativeTarget "Pamper Wipes Scanner" */;
+			buildPhases = (
+				048933EB27C5555200D2AFD6 /* Sources */,
+				048933EC27C5555200D2AFD6 /* Frameworks */,
+				048933ED27C5555200D2AFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pamper Wipes Scanner";
+			productName = "Pamper Wipes Scanner";
+			productReference = 048933EF27C5555200D2AFD6 /* Pamper Wipes Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048933FE27C5555300D2AFD6 /* Pamper Wipes ScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489341627C5555400D2AFD6 /* Build configuration list for PBXNativeTarget "Pamper Wipes ScannerTests" */;
+			buildPhases = (
+				048933FB27C5555300D2AFD6 /* Sources */,
+				048933FC27C5555300D2AFD6 /* Frameworks */,
+				048933FD27C5555300D2AFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0489340127C5555300D2AFD6 /* PBXTargetDependency */,
+			);
+			name = "Pamper Wipes ScannerTests";
+			productName = "Pamper Wipes ScannerTests";
+			productReference = 048933FF27C5555300D2AFD6 /* Pamper Wipes ScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0489340827C5555400D2AFD6 /* Pamper Wipes ScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489341927C5555400D2AFD6 /* Build configuration list for PBXNativeTarget "Pamper Wipes ScannerUITests" */;
+			buildPhases = (
+				0489340527C5555400D2AFD6 /* Sources */,
+				0489340627C5555400D2AFD6 /* Frameworks */,
+				0489340727C5555400D2AFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0489340B27C5555400D2AFD6 /* PBXTargetDependency */,
+			);
+			name = "Pamper Wipes ScannerUITests";
+			productName = "Pamper Wipes ScannerUITests";
+			productReference = 0489340927C5555400D2AFD6 /* Pamper Wipes ScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048933E727C5555200D2AFD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					048933EE27C5555200D2AFD6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					048933FE27C5555300D2AFD6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 048933EE27C5555200D2AFD6;
+					};
+					0489340827C5555400D2AFD6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 048933EE27C5555200D2AFD6;
+					};
+				};
+			};
+			buildConfigurationList = 048933EA27C5555200D2AFD6 /* Build configuration list for PBXProject "Pamper Wipes Scanner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048933E627C5555200D2AFD6;
+			productRefGroup = 048933F027C5555200D2AFD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048933EE27C5555200D2AFD6 /* Pamper Wipes Scanner */,
+				048933FE27C5555300D2AFD6 /* Pamper Wipes ScannerTests */,
+				0489340827C5555400D2AFD6 /* Pamper Wipes ScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048933ED27C5555200D2AFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048933FA27C5555300D2AFD6 /* Preview Assets.xcassets in Resources */,
+				0489342927C55BF500D2AFD6 /* Preview Assets.xcassets in Resources */,
+				048933F727C5555300D2AFD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048933FD27C5555300D2AFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0489340727C5555400D2AFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048933EB27C5555200D2AFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048933F327C5555200D2AFD6 /* Pamper_Wipes_ScannerApp.swift in Sources */,
+				0489344427C582D300D2AFD6 /* ResultsListView.swift in Sources */,
+				0489342C27C55C0100D2AFD6 /* ContentViewModel.swift in Sources */,
+				0489342427C55BE000D2AFD6 /* CameraError.swift in Sources */,
+				0489343C27C5616900D2AFD6 /* CameraFinderView.swift in Sources */,
+				0489343527C55C0900D2AFD6 /* ContentView.swift in Sources */,
+				0489343A27C55CC000D2AFD6 /* CGImageExtension.swift in Sources */,
+				0489343E27C5647200D2AFD6 /* CornerRadius.swift in Sources */,
+				0489342527C55BE000D2AFD6 /* FrameManager.swift in Sources */,
+				0489343327C55C0900D2AFD6 /* FrameView.swift in Sources */,
+				0489342627C55BE000D2AFD6 /* CameraManager.swift in Sources */,
+				0489343727C55C0900D2AFD6 /* ErrorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048933FB27C5555300D2AFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489340427C5555300D2AFD6 /* Pamper_Wipes_ScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0489340527C5555400D2AFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489340E27C5555400D2AFD6 /* Pamper_Wipes_ScannerUITests.swift in Sources */,
+				0489341027C5555400D2AFD6 /* Pamper_Wipes_ScannerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0489340127C5555300D2AFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048933EE27C5555200D2AFD6 /* Pamper Wipes Scanner */;
+			targetProxy = 0489340027C5555300D2AFD6 /* PBXContainerItemProxy */;
+		};
+		0489340B27C5555400D2AFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048933EE27C5555200D2AFD6 /* Pamper Wipes Scanner */;
+			targetProxy = 0489340A27C5555400D2AFD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0489341127C5555400D2AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0489341227C5555400D2AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0489341427C5555400D2AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pamper Wipes Scanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 422Y4K9N6G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to scan your pamper wipes and get the code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamure.Pamper-Wipes-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0489341527C5555400D2AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pamper Wipes Scanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 422Y4K9N6G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to scan your pamper wipes and get the code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamure.Pamper-Wipes-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0489341727C5555400D2AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422Y4K9N6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamure.Pamper-Wipes-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pamper Wipes Scanner.app/Pamper Wipes Scanner";
+			};
+			name = Debug;
+		};
+		0489341827C5555400D2AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422Y4K9N6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamure.Pamper-Wipes-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pamper Wipes Scanner.app/Pamper Wipes Scanner";
+			};
+			name = Release;
+		};
+		0489341A27C5555400D2AFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422Y4K9N6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamure.Pamper-Wipes-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pamper Wipes Scanner";
+			};
+			name = Debug;
+		};
+		0489341B27C5555400D2AFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422Y4K9N6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamure.Pamper-Wipes-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pamper Wipes Scanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048933EA27C5555200D2AFD6 /* Build configuration list for PBXProject "Pamper Wipes Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489341127C5555400D2AFD6 /* Debug */,
+				0489341227C5555400D2AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489341327C5555400D2AFD6 /* Build configuration list for PBXNativeTarget "Pamper Wipes Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489341427C5555400D2AFD6 /* Debug */,
+				0489341527C5555400D2AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489341627C5555400D2AFD6 /* Build configuration list for PBXNativeTarget "Pamper Wipes ScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489341727C5555400D2AFD6 /* Debug */,
+				0489341827C5555400D2AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489341927C5555400D2AFD6 /* Build configuration list for PBXNativeTarget "Pamper Wipes ScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489341A27C5555400D2AFD6 /* Debug */,
+				0489341B27C5555400D2AFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048933E727C5555200D2AFD6 /* Project object */;
+}
